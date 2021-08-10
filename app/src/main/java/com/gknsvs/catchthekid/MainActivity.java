@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 Random random=new Random();
                 int num=random.nextInt(11);
                 image[num].setVisibility(View.VISIBLE);
-                handler.postDelayed(this,300);
+                handler.postDelayed(this,400);
             }
         };
         handler.post(runnable);
